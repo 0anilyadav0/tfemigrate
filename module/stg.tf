@@ -1,3 +1,6 @@
+variable "bucket_name" {
+}
+
 resource "google_storage_bucket" "static" {
     project = "hbl-uat-sharedsvc-prj-spk-4d"
     name = var.bucket_name
@@ -7,5 +10,3 @@ resource "google_storage_bucket" "static" {
     uniform_bucket_level_access = true
 }
 
-variable "bucket_name" {
-}
