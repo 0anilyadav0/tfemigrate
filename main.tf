@@ -1,10 +1,10 @@
 module "create_stg_1" {
-	source= "./module/"
+	source= "./module"
 	bucket_name= "asedgfhghjk1"
 	}
 
 module "create_stg_2" {
-        source= "./module/"
+        source= "./module"
         bucket_name= "asedgfhghjktyuio1"
         }
 
