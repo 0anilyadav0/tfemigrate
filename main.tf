@@ -19,8 +19,8 @@ provider "google" {
 }*/
 
 resource "google_storage_bucket" "static-site" {
-  name          = "image-store.com"
-  location      = "EU"
+  name          = "qwertyuioplkhjgfdsa"
+  location      = "ASIA-SOUTH1"
   force_destroy = true
   labels = {
         my_label = "test_sentinel"
